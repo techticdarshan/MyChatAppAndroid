@@ -1,0 +1,629 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.mychatapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="31" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+13-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:5:5-80
+13-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:5:22-77
+14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+14-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:6:5-81
+14-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:6:22-78
+15    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/techtic/.gradle/caches/transforms-3/087fbfca1d019ac58bafd6d384244594/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:5-76
+15-->[com.facebook.flipper:flipper:0.125.0] /Users/techtic/.gradle/caches/transforms-3/087fbfca1d019ac58bafd6d384244594/transformed/jetified-flipper-0.125.0/AndroidManifest.xml:16:22-73
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-79
+16-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:22-76
+17    <uses-permission android:name="android.permission.WAKE_LOCK" />
+17-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-68
+17-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-65
+18    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+18-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:24:5-83
+18-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:24:22-80
+19    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+19-->[com.google.firebase:firebase-messaging:23.0.0] /Users/techtic/.gradle/caches/transforms-3/0ee696b28afed430a3c4374c3498ae58/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:5-82
+19-->[com.google.firebase:firebase-messaging:23.0.0] /Users/techtic/.gradle/caches/transforms-3/0ee696b28afed430a3c4374c3498ae58/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:25:22-79
+20    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" /> <!-- Include required permissions for Advertising Id -->
+20-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:5-110
+20-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:26:22-107
+21    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+21-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/techtic/.gradle/caches/transforms-3/92920db799688b405ed77af0635a32d3/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:5-79
+21-->[com.google.android.gms:play-services-ads-identifier:18.0.0] /Users/techtic/.gradle/caches/transforms-3/92920db799688b405ed77af0635a32d3/transformed/jetified-play-services-ads-identifier-18.0.0/AndroidManifest.xml:23:22-76
+22
+23    <application
+23-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:8:5-38:19
+24        android:name="com.mychatapp.MainApplication"
+24-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:9:7-38
+25        android:allowBackup="false"
+25-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:13:7-34
+26        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+26-->[androidx.core:core:1.5.0] /Users/techtic/.gradle/caches/transforms-3/8d220998e8c53183fb94ff5ca05f5302/transformed/core-1.5.0/AndroidManifest.xml:24:18-86
+27        android:debuggable="true"
+28        android:icon="@mipmap/ic_launcher"
+28-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:11:7-41
+29        android:label="@string/app_name"
+29-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:10:7-39
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:12:7-52
+31        android:theme="@style/AppTheme"
+31-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:14:7-38
+32        android:usesCleartextTraffic="true" >
+32-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:15:7-42
+33        <activity
+33-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/debug/AndroidManifest.xml:11:9-111
+34            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+34-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/debug/AndroidManifest.xml:11:19-83
+35            android:exported="false" />
+35-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/debug/AndroidManifest.xml:11:84-108
+36        <activity
+36-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:16:7-27:18
+37            android:name="com.mychatapp.MainActivity"
+37-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:17:9-37
+38            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+38-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:19:9-118
+39            android:exported="true"
+39-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:22:9-32
+40            android:label="@string/app_name"
+40-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:18:9-41
+41            android:launchMode="singleTask"
+41-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:20:9-40
+42            android:windowSoftInputMode="adjustResize" >
+42-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:21:9-51
+43            <intent-filter>
+43-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:23:9-26:25
+44                <action android:name="android.intent.action.MAIN" />
+44-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:24:13-65
+44-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:24:21-62
+45
+46                <category android:name="android.intent.category.LAUNCHER" />
+46-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:25:13-73
+46-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:25:23-70
+47            </intent-filter>
+48        </activity>
+49
+50        <meta-data
+50-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:31:8-32:44
+51            android:name="com.dieam.reactnativepushnotification.notification_foreground"
+51-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:31:20-96
+52            android:value="false" /> <!-- Change the resource name to your App's accent color - or any other color you want -->
+52-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:32:21-42
+53        <meta-data
+53-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:34:9-35:54
+54            android:name="com.dieam.reactnativepushnotification.notification_color"
+54-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:34:21-92
+55            android:resource="@color/white" />
+55-->/Users/techtic/Downloads/techtic/MyChatApp/android/app/src/main/AndroidManifest.xml:35:21-52
+56        <meta-data
+56-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-16:36
+57            android:name="firebase_analytics_collection_enabled"
+57-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-65
+58            android:value="true" />
+58-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-33
+59        <meta-data
+59-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:9-19:37
+60            android:name="firebase_analytics_collection_deactivated"
+60-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-69
+61            android:value="false" />
+61-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-34
+62        <meta-data
+62-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-22:36
+63            android:name="google_analytics_adid_collection_enabled"
+63-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-68
+64            android:value="true" />
+64-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-33
+65        <meta-data
+65-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-25:36
+66            android:name="google_analytics_ssaid_collection_enabled"
+66-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-69
+67            android:value="true" />
+67-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-33
+68        <meta-data
+68-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-28:36
+69            android:name="google_analytics_default_allow_ad_personalization_signals"
+69-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-85
+70            android:value="true" />
+70-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-33
+71        <meta-data
+71-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:29:9-31:36
+72            android:name="google_analytics_automatic_screen_reporting_enabled"
+72-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:30:13-79
+73            android:value="true" /> <!-- Disable crashlytics by default so we can custom init with CrashlyticsNdk support -->
+73-->[:react-native-firebase_analytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/analytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:31:13-33
+74        <meta-data
+74-->[:react-native-firebase_crashlytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-14:37
+75            android:name="firebase_crashlytics_collection_enabled"
+75-->[:react-native-firebase_crashlytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-67
+76            android:value="false" />
+76-->[:react-native-firebase_crashlytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-34
+77
+78        <provider
+78-->[:react-native-firebase_crashlytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-20:38
+79            android:name="io.invertase.firebase.crashlytics.ReactNativeFirebaseCrashlyticsInitProvider"
+79-->[:react-native-firebase_crashlytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-104
+80            android:authorities="com.mychatapp.reactnativefirebasecrashlyticsinitprovider"
+80-->[:react-native-firebase_crashlytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-94
+81            android:exported="false"
+81-->[:react-native-firebase_crashlytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+82            android:initOrder="98" />
+82-->[:react-native-firebase_crashlytics] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/crashlytics/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-35
+83
+84        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+84-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-111
+84-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-108
+85        <service
+85-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:9-21:19
+86            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+86-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-95
+87            android:exported="false" >
+87-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-37
+88            <intent-filter>
+88-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+89                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+89-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+89-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+90            </intent-filter>
+91        </service>
+92
+93        <receiver
+93-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:9-30:20
+94            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+94-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-96
+95            android:exported="true"
+95-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:25:13-36
+96            android:permission="com.google.android.c2dm.permission.SEND" >
+96-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:13-73
+97            <intent-filter>
+97-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+98                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+98-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+98-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+99            </intent-filter>
+100        </receiver>
+101
+102        <meta-data
+102-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:32:9-34:36
+103            android:name="firebase_messaging_auto_init_enabled"
+103-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:33:13-64
+104            android:value="true" />
+104-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:13-33
+105        <meta-data
+105-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:9-37:45
+106            android:name="com.google.firebase.messaging.default_notification_channel_id"
+106-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-89
+107            android:value="high-priority" />
+107-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-42
+108        <meta-data
+108-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:9-40:49
+109            android:name="com.google.firebase.messaging.default_notification_color"
+109-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:39:13-84
+110            android:resource="@color/hotpink" />
+110-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:40:13-46
+111        <meta-data
+111-->[:react-native-firebase_app] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-12:36
+112            android:name="app_data_collection_default_enabled"
+112-->[:react-native-firebase_app] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+113            android:value="true" />
+113-->[:react-native-firebase_app] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-33
+114
+115        <service
+115-->[:react-native-firebase_app] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:9-18:19
+116            android:name="com.google.firebase.components.ComponentDiscoveryService"
+116-->[:react-native-firebase_app] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:18-89
+117            android:directBootAware="true"
+117-->[com.google.firebase:firebase-common:20.1.0] /Users/techtic/.gradle/caches/transforms-3/525bbb0f1cda0951c6f00d2bcddbc935/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:35:13-43
+118            android:exported="false" >
+118-->[com.google.firebase:firebase-firestore:24.0.1] /Users/techtic/.gradle/caches/transforms-3/e108af0c6500d8c1afc966aff8ed78eb/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:19:13-37
+119            <meta-data
+119-->[:react-native-firebase_app] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:85
+120                android:name="com.google.firebase.components:io.invertase.firebase.app.ReactNativeFirebaseAppRegistrar"
+120-->[:react-native-firebase_app] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-120
+121                android:value="com.google.firebase.components.ComponentRegistrar" />
+121-->[:react-native-firebase_app] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-82
+122            <meta-data
+122-->[com.google.firebase:firebase-firestore:24.0.1] /Users/techtic/.gradle/caches/transforms-3/e108af0c6500d8c1afc966aff8ed78eb/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:20:13-22:85
+123                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+123-->[com.google.firebase:firebase-firestore:24.0.1] /Users/techtic/.gradle/caches/transforms-3/e108af0c6500d8c1afc966aff8ed78eb/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:21:17-111
+124                android:value="com.google.firebase.components.ComponentRegistrar" />
+124-->[com.google.firebase:firebase-firestore:24.0.1] /Users/techtic/.gradle/caches/transforms-3/e108af0c6500d8c1afc966aff8ed78eb/transformed/jetified-firebase-firestore-24.0.1/AndroidManifest.xml:22:17-82
+125            <meta-data
+125-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:32:13-34:85
+126                android:name="com.google.firebase.components:com.google.firebase.appdistribution.FirebaseAppDistributionRegistrar"
+126-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:33:17-131
+127                android:value="com.google.firebase.components.ComponentRegistrar" />
+127-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:34:17-82
+128            <meta-data
+128-->[com.google.firebase:firebase-messaging:23.0.0] /Users/techtic/.gradle/caches/transforms-3/0ee696b28afed430a3c4374c3498ae58/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:52:13-54:85
+129                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+129-->[com.google.firebase:firebase-messaging:23.0.0] /Users/techtic/.gradle/caches/transforms-3/0ee696b28afed430a3c4374c3498ae58/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:53:17-119
+130                android:value="com.google.firebase.components.ComponentRegistrar" />
+130-->[com.google.firebase:firebase-messaging:23.0.0] /Users/techtic/.gradle/caches/transforms-3/0ee696b28afed430a3c4374c3498ae58/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:54:17-82
+131            <meta-data
+131-->[com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/techtic/.gradle/caches/transforms-3/c7fbd2b739b8ad69b27356266f809252/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:35:13-37:85
+132                android:name="com.google.firebase.components:com.google.firebase.crashlytics.ndk.CrashlyticsNdkRegistrar"
+132-->[com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/techtic/.gradle/caches/transforms-3/c7fbd2b739b8ad69b27356266f809252/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:36:17-122
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-crashlytics-ndk:18.2.8] /Users/techtic/.gradle/caches/transforms-3/c7fbd2b739b8ad69b27356266f809252/transformed/jetified-firebase-crashlytics-ndk-18.2.8/AndroidManifest.xml:37:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-crashlytics:18.2.8] /Users/techtic/.gradle/caches/transforms-3/262ed6202c0ffae0da9f2018f21f2fe0/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:18:13-20:85
+135                android:name="com.google.firebase.components:com.google.firebase.crashlytics.CrashlyticsRegistrar"
+135-->[com.google.firebase:firebase-crashlytics:18.2.8] /Users/techtic/.gradle/caches/transforms-3/262ed6202c0ffae0da9f2018f21f2fe0/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:19:17-115
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-crashlytics:18.2.8] /Users/techtic/.gradle/caches/transforms-3/262ed6202c0ffae0da9f2018f21f2fe0/transformed/jetified-firebase-crashlytics-18.2.8/AndroidManifest.xml:20:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/techtic/.gradle/caches/transforms-3/cede601c4c1bef5d3c31186f82dc5649/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:28:13-30:85
+138                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+138-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/techtic/.gradle/caches/transforms-3/cede601c4c1bef5d3c31186f82dc5649/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:29:17-115
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-datatransport:18.0.0] /Users/techtic/.gradle/caches/transforms-3/cede601c4c1bef5d3c31186f82dc5649/transformed/jetified-firebase-datatransport-18.0.0/AndroidManifest.xml:30:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:77:13-79:85
+141                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+141-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:78:17-109
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:79:17-82
+143            <meta-data
+143-->[com.google.firebase:firebase-dynamic-links:21.0.0] /Users/techtic/.gradle/caches/transforms-3/cc3a241b6b0d6be87494075287345bc4/transformed/jetified-firebase-dynamic-links-21.0.0/AndroidManifest.xml:27:13-29:85
+144                android:name="com.google.firebase.components:com.google.firebase.dynamiclinks.internal.FirebaseDynamicLinkRegistrar"
+144-->[com.google.firebase:firebase-dynamic-links:21.0.0] /Users/techtic/.gradle/caches/transforms-3/cc3a241b6b0d6be87494075287345bc4/transformed/jetified-firebase-dynamic-links-21.0.0/AndroidManifest.xml:28:17-133
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.firebase:firebase-dynamic-links:21.0.0] /Users/techtic/.gradle/caches/transforms-3/cc3a241b6b0d6be87494075287345bc4/transformed/jetified-firebase-dynamic-links-21.0.0/AndroidManifest.xml:29:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-storage:20.0.0] /Users/techtic/.gradle/caches/transforms-3/469527b98307e82d19eaa97a6cfe40b0/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:33:13-35:85
+147                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+147-->[com.google.firebase:firebase-storage:20.0.0] /Users/techtic/.gradle/caches/transforms-3/469527b98307e82d19eaa97a6cfe40b0/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:34:17-107
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-storage:20.0.0] /Users/techtic/.gradle/caches/transforms-3/469527b98307e82d19eaa97a6cfe40b0/transformed/jetified-firebase-storage-20.0.0/AndroidManifest.xml:35:17-82
+149            <meta-data
+149-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/techtic/.gradle/caches/transforms-3/2f12e2075d94f81c4a8e7790c88ad448/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:30:13-32:85
+150                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+150-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/techtic/.gradle/caches/transforms-3/2f12e2075d94f81c4a8e7790c88ad448/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:31:17-139
+151                android:value="com.google.firebase.components.ComponentRegistrar" />
+151-->[com.google.android.gms:play-services-measurement-api:20.1.0] /Users/techtic/.gradle/caches/transforms-3/2f12e2075d94f81c4a8e7790c88ad448/transformed/jetified-play-services-measurement-api-20.1.0/AndroidManifest.xml:32:17-82
+152            <meta-data
+152-->[com.google.firebase:firebase-installations:17.0.1] /Users/techtic/.gradle/caches/transforms-3/249faf5208eb3880e7e11bd701b4fa8e/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:18:13-20:85
+153                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+153-->[com.google.firebase:firebase-installations:17.0.1] /Users/techtic/.gradle/caches/transforms-3/249faf5208eb3880e7e11bd701b4fa8e/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:19:17-127
+154                android:value="com.google.firebase.components.ComponentRegistrar" />
+154-->[com.google.firebase:firebase-installations:17.0.1] /Users/techtic/.gradle/caches/transforms-3/249faf5208eb3880e7e11bd701b4fa8e/transformed/jetified-firebase-installations-17.0.1/AndroidManifest.xml:20:17-82
+155        </service>
+156
+157        <provider
+157-->[:react-native-firebase_app] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:9-24:38
+158            android:name="io.invertase.firebase.app.ReactNativeFirebaseAppInitProvider"
+158-->[:react-native-firebase_app] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-88
+159            android:authorities="com.mychatapp.reactnativefirebaseappinitprovider"
+159-->[:react-native-firebase_app] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:13-86
+160            android:exported="false"
+160-->[:react-native-firebase_app] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-37
+161            android:initOrder="99" />
+161-->[:react-native-firebase_app] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/app/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-35
+162        <provider
+162-->[:react-native-image-picker] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+163            android:name="com.imagepicker.ImagePickerProvider"
+163-->[:react-native-image-picker] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+164            android:authorities="com.mychatapp.imagepickerprovider"
+164-->[:react-native-image-picker] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+165            android:exported="false"
+165-->[:react-native-image-picker] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+166            android:grantUriPermissions="true" >
+166-->[:react-native-image-picker] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+167            <meta-data
+167-->[:react-native-image-picker] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+168                android:name="android.support.FILE_PROVIDER_PATHS"
+168-->[:react-native-image-picker] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+169                android:resource="@xml/imagepicker_provider_paths" />
+169-->[:react-native-image-picker] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+170        </provider>
+171        <!--
+172        The launch mode for Install Activity is singleTask to ensure that after the unknown sources UI
+173        or the installation flow is complete, the Install Activity does not get recreated which causes loss of state
+174         See here for more info - https://developer.android.com/guide/components/activities/tasks-and-back-stack#ManifestForTasks
+175        -->
+176        <activity
+176-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:41:9-44:47
+177            android:name="com.google.firebase.appdistribution.internal.InstallActivity"
+177-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:42:13-88
+178            android:exported="true"
+178-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:43:13-36
+179            android:launchMode="singleTask" />
+179-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:44:13-44
+180        <activity
+180-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:45:9-59:20
+181            android:name="com.google.firebase.appdistribution.internal.SignInResultActivity"
+181-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:46:13-93
+182            android:exported="true" >
+182-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:47:13-36
+183            <intent-filter>
+183-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:48:13-58:29
+184                <action android:name="android.intent.action.VIEW" />
+184-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:49:17-69
+184-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:49:25-66
+185
+186                <category android:name="android.intent.category.DEFAULT" />
+186-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:51:17-76
+186-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:51:27-73
+187                <category android:name="android.intent.category.BROWSABLE" />
+187-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:52:17-78
+187-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:52:27-75
+188
+189                <data
+189-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:54:17-57:47
+190                    android:host="appdistribution"
+190-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:55:21-51
+191                    android:path="/com.mychatapp"
+191-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:56:21-53
+192                    android:scheme="intent" />
+192-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:57:21-44
+193            </intent-filter>
+194        </activity>
+195
+196        <provider
+196-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:61:9-69:20
+197            android:name="com.google.firebase.appdistribution.internal.FirebaseAppDistributionFileProvider"
+197-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:62:13-108
+198            android:authorities="com.mychatapp.FirebaseAppDistributionFileProvider"
+198-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:63:13-87
+199            android:exported="false"
+199-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:64:13-37
+200            android:grantUriPermissions="true" >
+200-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:65:13-47
+201            <meta-data
+201-->[:react-native-image-picker] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:70
+202                android:name="android.support.FILE_PROVIDER_PATHS"
+202-->[:react-native-image-picker] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+203                android:resource="@xml/firebase_app_distribution_provider_paths" />
+203-->[:react-native-image-picker] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-67
+204        </provider>
+205
+206        <receiver
+206-->[com.google.firebase:firebase-messaging:23.0.0] /Users/techtic/.gradle/caches/transforms-3/0ee696b28afed430a3c4374c3498ae58/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:28:9-35:20
+207            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+207-->[com.google.firebase:firebase-messaging:23.0.0] /Users/techtic/.gradle/caches/transforms-3/0ee696b28afed430a3c4374c3498ae58/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:29:13-78
+208            android:exported="true"
+208-->[com.google.firebase:firebase-messaging:23.0.0] /Users/techtic/.gradle/caches/transforms-3/0ee696b28afed430a3c4374c3498ae58/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:30:13-36
+209            android:permission="com.google.android.c2dm.permission.SEND" >
+209-->[com.google.firebase:firebase-messaging:23.0.0] /Users/techtic/.gradle/caches/transforms-3/0ee696b28afed430a3c4374c3498ae58/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:31:13-73
+210            <intent-filter>
+210-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-29:29
+211                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+211-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:17-81
+211-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:25-78
+212            </intent-filter>
+213        </receiver>
+214        <!--
+215             FirebaseMessagingService performs security checks at runtime,
+216             but set to not exported to explicitly avoid allowing another app to call it.
+217        -->
+218        <service
+218-->[com.google.firebase:firebase-messaging:23.0.0] /Users/techtic/.gradle/caches/transforms-3/0ee696b28afed430a3c4374c3498ae58/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:41:9-48:19
+219            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+219-->[com.google.firebase:firebase-messaging:23.0.0] /Users/techtic/.gradle/caches/transforms-3/0ee696b28afed430a3c4374c3498ae58/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:42:13-82
+220            android:directBootAware="true"
+220-->[com.google.firebase:firebase-messaging:23.0.0] /Users/techtic/.gradle/caches/transforms-3/0ee696b28afed430a3c4374c3498ae58/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:43:13-43
+221            android:exported="false" >
+221-->[com.google.firebase:firebase-messaging:23.0.0] /Users/techtic/.gradle/caches/transforms-3/0ee696b28afed430a3c4374c3498ae58/transformed/jetified-firebase-messaging-23.0.0/AndroidManifest.xml:44:13-37
+222            <intent-filter android:priority="-500" >
+222-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-20:29
+223                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+223-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-78
+223-->[:react-native-firebase_messaging] /Users/techtic/Downloads/techtic/MyChatApp/node_modules/@react-native-firebase/messaging/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:25-75
+224            </intent-filter>
+225        </service>
+226        <service
+226-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/techtic/.gradle/caches/transforms-3/632c43aeec61d8b1291f3435bf8da83d/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:29:9-35:19
+227            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+227-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/techtic/.gradle/caches/transforms-3/632c43aeec61d8b1291f3435bf8da83d/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:30:13-103
+228            android:exported="false" >
+228-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/techtic/.gradle/caches/transforms-3/632c43aeec61d8b1291f3435bf8da83d/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:31:13-37
+229            <meta-data
+229-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/techtic/.gradle/caches/transforms-3/632c43aeec61d8b1291f3435bf8da83d/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:32:13-34:39
+230                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+230-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/techtic/.gradle/caches/transforms-3/632c43aeec61d8b1291f3435bf8da83d/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:33:17-94
+231                android:value="cct" />
+231-->[com.google.android.datatransport:transport-backend-cct:3.1.2] /Users/techtic/.gradle/caches/transforms-3/632c43aeec61d8b1291f3435bf8da83d/transformed/jetified-transport-backend-cct-3.1.2/AndroidManifest.xml:34:17-36
+232        </service>
+233        <service
+233-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/techtic/.gradle/caches/transforms-3/47a68a941d02b8042c72e7dce6f18862/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:26:9-30:19
+234            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+234-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/techtic/.gradle/caches/transforms-3/47a68a941d02b8042c72e7dce6f18862/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:27:13-117
+235            android:exported="false"
+235-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/techtic/.gradle/caches/transforms-3/47a68a941d02b8042c72e7dce6f18862/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:28:13-37
+236            android:permission="android.permission.BIND_JOB_SERVICE" >
+236-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/techtic/.gradle/caches/transforms-3/47a68a941d02b8042c72e7dce6f18862/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:29:13-69
+237        </service>
+238
+239        <receiver
+239-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/techtic/.gradle/caches/transforms-3/47a68a941d02b8042c72e7dce6f18862/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:32:9-34:40
+240            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+240-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/techtic/.gradle/caches/transforms-3/47a68a941d02b8042c72e7dce6f18862/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:33:13-132
+241            android:exported="false" />
+241-->[com.google.android.datatransport:transport-runtime:3.1.2] /Users/techtic/.gradle/caches/transforms-3/47a68a941d02b8042c72e7dce6f18862/transformed/jetified-transport-runtime-3.1.2/AndroidManifest.xml:34:13-37
+242
+243        <activity
+243-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:27:9-44:20
+244            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+244-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:28:13-80
+245            android:excludeFromRecents="true"
+245-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:29:13-46
+246            android:exported="true"
+246-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:30:13-36
+247            android:launchMode="singleTask"
+247-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:31:13-44
+248            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+248-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:32:13-72
+249            <intent-filter>
+249-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:33:13-43:29
+250                <action android:name="android.intent.action.VIEW" />
+250-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:49:17-69
+250-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:49:25-66
+251
+252                <category android:name="android.intent.category.DEFAULT" />
+252-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:51:17-76
+252-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:51:27-73
+253                <category android:name="android.intent.category.BROWSABLE" />
+253-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:52:17-78
+253-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:52:27-75
+254
+255                <data
+255-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:54:17-57:47
+256                    android:host="firebase.auth"
+256-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:55:21-51
+257                    android:path="/"
+257-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:56:21-53
+258                    android:scheme="genericidp" />
+258-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:57:21-44
+259            </intent-filter>
+260        </activity>
+261        <activity
+261-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:45:9-62:20
+262            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+262-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:46:13-79
+263            android:excludeFromRecents="true"
+263-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:47:13-46
+264            android:exported="true"
+264-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:48:13-36
+265            android:launchMode="singleTask"
+265-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:49:13-44
+266            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+266-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:50:13-72
+267            <intent-filter>
+267-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:51:13-61:29
+268                <action android:name="android.intent.action.VIEW" />
+268-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:49:17-69
+268-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:49:25-66
+269
+270                <category android:name="android.intent.category.DEFAULT" />
+270-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:51:17-76
+270-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:51:27-73
+271                <category android:name="android.intent.category.BROWSABLE" />
+271-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:52:17-78
+271-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:52:27-75
+272
+273                <data
+273-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:54:17-57:47
+274                    android:host="firebase.auth"
+274-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:55:21-51
+275                    android:path="/"
+275-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:56:21-53
+276                    android:scheme="recaptcha" />
+276-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:57:21-44
+277            </intent-filter>
+278        </activity>
+279
+280        <service
+280-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:64:9-73:19
+281            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+281-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:65:13-101
+282            android:enabled="true"
+282-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:66:13-35
+283            android:exported="false" >
+283-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:67:13-37
+284            <intent-filter>
+284-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:68:13-72:29
+285                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+285-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:17-89
+285-->[com.google.firebase:firebase-auth:21.0.1] /Users/techtic/.gradle/caches/transforms-3/4a7f20a8f88959c89323300885fb8d4e/transformed/jetified-firebase-auth-21.0.1/AndroidManifest.xml:69:25-86
+286
+287                <category android:name="android.intent.category.DEFAULT" />
+287-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:51:17-76
+287-->[com.google.firebase:firebase-appdistribution:16.0.0-beta02] /Users/techtic/.gradle/caches/transforms-3/aeb06dd758e98a6c8a2529d8a3fe8141/transformed/jetified-firebase-appdistribution-16.0.0-beta02/AndroidManifest.xml:51:27-73
+288            </intent-filter>
+289        </service>
+290
+291        <activity
+291-->[com.google.android.gms:play-services-auth:20.1.0] /Users/techtic/.gradle/caches/transforms-3/a82daef9f3eaa0b97fd103f4c743c7eb/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:23:9-27:75
+292            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+292-->[com.google.android.gms:play-services-auth:20.1.0] /Users/techtic/.gradle/caches/transforms-3/a82daef9f3eaa0b97fd103f4c743c7eb/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:24:13-93
+293            android:excludeFromRecents="true"
+293-->[com.google.android.gms:play-services-auth:20.1.0] /Users/techtic/.gradle/caches/transforms-3/a82daef9f3eaa0b97fd103f4c743c7eb/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:25:13-46
+294            android:exported="false"
+294-->[com.google.android.gms:play-services-auth:20.1.0] /Users/techtic/.gradle/caches/transforms-3/a82daef9f3eaa0b97fd103f4c743c7eb/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:26:13-37
+295            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+295-->[com.google.android.gms:play-services-auth:20.1.0] /Users/techtic/.gradle/caches/transforms-3/a82daef9f3eaa0b97fd103f4c743c7eb/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:27:13-72
+296        <!--
+297            Service handling Google Sign-In user revocation. For apps that do not integrate with
+298            Google Sign-In, this service will never be started.
+299        -->
+300        <service
+300-->[com.google.android.gms:play-services-auth:20.1.0] /Users/techtic/.gradle/caches/transforms-3/a82daef9f3eaa0b97fd103f4c743c7eb/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:33:9-37:51
+301            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+301-->[com.google.android.gms:play-services-auth:20.1.0] /Users/techtic/.gradle/caches/transforms-3/a82daef9f3eaa0b97fd103f4c743c7eb/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:34:13-89
+302            android:exported="true"
+302-->[com.google.android.gms:play-services-auth:20.1.0] /Users/techtic/.gradle/caches/transforms-3/a82daef9f3eaa0b97fd103f4c743c7eb/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:35:13-36
+303            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+303-->[com.google.android.gms:play-services-auth:20.1.0] /Users/techtic/.gradle/caches/transforms-3/a82daef9f3eaa0b97fd103f4c743c7eb/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:36:13-107
+304            android:visibleToInstantApps="true" />
+304-->[com.google.android.gms:play-services-auth:20.1.0] /Users/techtic/.gradle/caches/transforms-3/a82daef9f3eaa0b97fd103f4c743c7eb/transformed/jetified-play-services-auth-20.1.0/AndroidManifest.xml:37:13-48
+305
+306        <activity
+306-->[com.google.android.gms:play-services-base:18.0.1] /Users/techtic/.gradle/caches/transforms-3/5268af435a4439a52ea59501f0c5d540/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:9-22:45
+307            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+307-->[com.google.android.gms:play-services-base:18.0.1] /Users/techtic/.gradle/caches/transforms-3/5268af435a4439a52ea59501f0c5d540/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:20:19-85
+308            android:exported="false"
+308-->[com.google.android.gms:play-services-base:18.0.1] /Users/techtic/.gradle/caches/transforms-3/5268af435a4439a52ea59501f0c5d540/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:22:19-43
+309            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+309-->[com.google.android.gms:play-services-base:18.0.1] /Users/techtic/.gradle/caches/transforms-3/5268af435a4439a52ea59501f0c5d540/transformed/jetified-play-services-base-18.0.1/AndroidManifest.xml:21:19-78
+310
+311        <provider
+311-->[com.google.firebase:firebase-common:20.1.0] /Users/techtic/.gradle/caches/transforms-3/525bbb0f1cda0951c6f00d2bcddbc935/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:26:9-31:39
+312            android:name="com.google.firebase.provider.FirebaseInitProvider"
+312-->[com.google.firebase:firebase-common:20.1.0] /Users/techtic/.gradle/caches/transforms-3/525bbb0f1cda0951c6f00d2bcddbc935/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:27:13-77
+313            android:authorities="com.mychatapp.firebaseinitprovider"
+313-->[com.google.firebase:firebase-common:20.1.0] /Users/techtic/.gradle/caches/transforms-3/525bbb0f1cda0951c6f00d2bcddbc935/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:28:13-72
+314            android:directBootAware="true"
+314-->[com.google.firebase:firebase-common:20.1.0] /Users/techtic/.gradle/caches/transforms-3/525bbb0f1cda0951c6f00d2bcddbc935/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:29:13-43
+315            android:exported="false"
+315-->[com.google.firebase:firebase-common:20.1.0] /Users/techtic/.gradle/caches/transforms-3/525bbb0f1cda0951c6f00d2bcddbc935/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:30:13-37
+316            android:initOrder="100" />
+316-->[com.google.firebase:firebase-common:20.1.0] /Users/techtic/.gradle/caches/transforms-3/525bbb0f1cda0951c6f00d2bcddbc935/transformed/jetified-firebase-common-20.1.0/AndroidManifest.xml:31:13-36
+317
+318        <receiver
+318-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:29:9-33:20
+319            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+319-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:30:13-85
+320            android:enabled="true"
+320-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:31:13-35
+321            android:exported="false" >
+321-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:32:13-37
+322        </receiver>
+323
+324        <service
+324-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:35:9-38:40
+325            android:name="com.google.android.gms.measurement.AppMeasurementService"
+325-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:36:13-84
+326            android:enabled="true"
+326-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:37:13-35
+327            android:exported="false" />
+327-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:38:13-37
+328        <service
+328-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:39:9-43:72
+329            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+329-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:40:13-87
+330            android:enabled="true"
+330-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:41:13-35
+331            android:exported="false"
+331-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:42:13-37
+332            android:permission="android.permission.BIND_JOB_SERVICE" />
+332-->[com.google.android.gms:play-services-measurement:20.1.0] /Users/techtic/.gradle/caches/transforms-3/0896360127b26c621021bd580710dfd7/transformed/jetified-play-services-measurement-20.1.0/AndroidManifest.xml:43:13-69
+333
+334        <meta-data
+334-->[com.google.android.gms:play-services-basement:18.0.0] /Users/techtic/.gradle/caches/transforms-3/5fab7c9561aa399564868e535fad730b/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:21:9-23:69
+335            android:name="com.google.android.gms.version"
+335-->[com.google.android.gms:play-services-basement:18.0.0] /Users/techtic/.gradle/caches/transforms-3/5fab7c9561aa399564868e535fad730b/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:22:13-58
+336            android:value="@integer/google_play_services_version" />
+336-->[com.google.android.gms:play-services-basement:18.0.0] /Users/techtic/.gradle/caches/transforms-3/5fab7c9561aa399564868e535fad730b/transformed/jetified-play-services-basement-18.0.0/AndroidManifest.xml:23:13-66
+337    </application>
+338
+339</manifest>
